@@ -20,14 +20,16 @@ function Corona3() {
     return (
         <div>
             {news1.map((value) => (
-                <div>
-                    <div className="container">
-                        <div className="image-wrapper">
-                            <img src={value.yoast_head_json.og_image[0].url} alt="Random" className="image1" />
+                <div className="mb-3 container">
+                    <div className="row g-0">
+                        <div className="col-md-4">
+                            <img src={value.yoast_head_json.og_image[0].url} className="img-fluid rounded-start image1" alt="random" />
                         </div>
-                        <div className="text-wrapper">
-                            <h5>{value.title.rendered}</h5>
-                            <p>{value.excerpt.rendered}</p>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">{value.title.rendered}</h5>
+                                <p className="card-text">{value.excerpt.rendered}</p>
+                            </div>
                         </div>
                     </div>
                 </div>

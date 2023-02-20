@@ -47,7 +47,7 @@
 
 .image1 {
     width: 20vw;
-    height: 30vh;
+    height: 80vh;
     margin-bottom: 7%;
     margin-top: 3%;
 }
@@ -72,6 +72,13 @@
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
+    }
+
+    .image1 {
+        width: 64vw;
+        height: 35vh;
+        margin-bottom: 7%;
+        margin-top: 3%;
     }
 }
 

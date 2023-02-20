@@ -21,6 +21,9 @@ import Gujarat2 from './Component/Gujarat2';
 import Gujarat3 from './Component/Gujarat3';
 import Corona2 from './Component/Corona2';
 import Corona3 from './Component/Corona3';
+import Food from './Component/Food';
+import Beauty from './Component/Beauty';
+import Entertainment from './Component/Entertainment';
 
 function App() {
     return (
@@ -48,6 +51,10 @@ function App() {
                     <Route path="/business2" element={<Business2 />} />
                     <Route path="/business3" element={<Business3 />} />
                     <Route path="/other" element={<Other />} />
+                    <Route path="/food" element={<Food />} />
+                    <Route path="/beauty" element={<Beauty />} />
+                    <Route path="/entertainment" element={<Entertainment />} />
+
                 </Routes>
             </BrowserRouter>
         </div>
