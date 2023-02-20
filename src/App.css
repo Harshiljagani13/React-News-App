@@ -14,7 +14,8 @@
 
 .navbarlink:hover {
     color: white;
-    background-color: palevioletred;
+    background-size: cover;
+    background-color: rgb(255, 0, 0);
 }
 
 .navbarlink:active {
@@ -53,7 +54,7 @@
 }
 
 .image2 {
-    width: 50vw;
+    width: 70vw;
     height: 70vh;
     margin: auto;
     margin-top: 4vh;
@@ -79,6 +80,25 @@
         height: 35vh;
         margin-bottom: 7%;
         margin-top: 3%;
+    }
+    .image2 {
+        width: 40rem;
+        height: 30rem;
+        margin: auto;
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    .textHome1 {
+        justify-items: self-start;
+        color: black;
+        text-decoration: solid;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .textHome2 {
+        justify-content: left;
+        color: black;
+        font-size: 0.9rem;
     }
 }
 
