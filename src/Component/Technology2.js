@@ -40,7 +40,7 @@ function Technology2() {
                                     }}
                                 ></p>
                                 <Link to={`/data/${value.id}`}>
-                                    <button className="btn btn-primary">Read more</button>
+                                    <button className="btn btn-outline-danger">Read more</button>
                                 </Link>
                             </div>
                         </div>

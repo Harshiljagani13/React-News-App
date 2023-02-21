@@ -39,7 +39,7 @@ function Gujarat3() {
                                         __html: value.excerpt.rendered,
                                     }}
                                 ></p>
-                                <button className="btn btn-primary">Read More...</button>
+                                <button className="btn btn-outline-danger">Read More...</button>
                             </div>
                         </div>
                     </div>

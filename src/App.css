@@ -6,9 +6,7 @@
     height: 40vmin;
     pointer-events: none;
 }
-body {
-    background-color: lightgray;
-}
+
 .navbarlink {
     color: white;
     text-decoration: none;
@@ -64,6 +62,11 @@ body {
     margin-top: 4vh;
 }
 
+.logo {
+    background-color: white;
+    height: 4rem;
+}
+
 .image1 {
     width: 20vw;
     height: 80vh;
@@ -86,6 +89,11 @@ body {
 .textHome2 {
     justify-content: left;
     color: black;
+}
+
+.data1 {
+    height: 1rem;
+    width: 10rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

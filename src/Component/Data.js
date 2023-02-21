@@ -22,8 +22,13 @@ const Data = () => {
     };
     return (
         <>
-            <h2 dangerouslySetInnerHTML={{ __html: data?.title?.rendered }} className="mt-2 fw-bold"></h2>
-            <p dangerouslySetInnerHTML={{ __html: data?.content?.rendered }} className=""></p>
+            <div class="mb-3">
+                <h2 dangerouslySetInnerHTML={{ __html: data?.title?.rendered }} className="mt-2 fw-bold"></h2>
+                {/* <img src={data?.yoast_head_json?.og_image[0]?.url} className="img-fluid rounded-start image1" alt="random" /> */}
+                <div class="card-body">
+                    <p dangerouslySetInnerHTML={{ __html: data?.content?.rendered }} className="img-fluid"></p>
+                </div>
+            </div>
         </>
     );
 };
