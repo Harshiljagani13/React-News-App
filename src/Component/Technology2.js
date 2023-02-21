@@ -27,7 +27,7 @@ function Technology2() {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title">{value.title.rendered}</h5>
+                                <h5 className="card-title fw-bold">{value.title.rendered}</h5>
                                 <p className="card-text">{value.excerpt.rendered}</p>
                             </div>
                         </div>
