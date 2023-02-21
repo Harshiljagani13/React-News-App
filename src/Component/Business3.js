@@ -27,8 +27,19 @@ function Business3() {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title fw-bold">{value.title.rendered}</h5>
-                                <p className="card-text">{value.excerpt.rendered}</p>
+                                <h5
+                                    className="card-title fw-bold"
+                                    dangerouslySetInnerHTML={{
+                                        __html: value.title.rendered,
+                                    }}
+                                ></h5>
+                                <p
+                                    className="card-text"
+                                    dangerouslySetInnerHTML={{
+                                        __html: value.excerpt.rendered,
+                                    }}
+                                ></p>
+                                <button className="btn btn-primary">Read More...</button>
                             </div>
                         </div>
                     </div>
