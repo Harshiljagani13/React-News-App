@@ -64,7 +64,8 @@
 
 .logo {
     background-color: white;
-    height: 4rem;
+    height: auto;
+    width: auto;
 }
 
 .image1 {
@@ -90,7 +91,10 @@
     justify-content: left;
     color: black;
 }
-
+div img {
+    width: 24rem;
+    height: 20rem;
+}
 .data1 {
     height: 1rem;
     width: 10rem;
