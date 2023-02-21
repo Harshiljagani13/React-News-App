@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import '../App.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Technology() {
     useEffect(() => {
@@ -9,8 +9,8 @@ function Technology() {
     });
 
     const [news1, setNews1] = useState([]);
-    const getAllNews = async () => {
-        await axios.get('https://timenews.co.in/wp-json/wp/v2/posts?categories=284').then((res) => {
+    const getAllNews = async (data) => {
+        await axios.get('https://timenews.co.in/wp-json/wp/v2/posts?categories=284', data).then((res) => {
             setNews1(res.data);
         });
     };
@@ -39,7 +39,9 @@ function Technology() {
                                         __html: value.excerpt.rendered,
                                     }}
                                 ></p>
-                                <button className="btn btn-primary">Read More...</button>
+                                <Link to={`/data/${value.id}`}>
+                                    <button className="btn btn-primary">Read more</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

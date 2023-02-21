@@ -6,7 +6,9 @@
     height: 40vmin;
     pointer-events: none;
 }
-
+body {
+    background-color: lightgray;
+}
 .navbarlink {
     color: white;
     text-decoration: none;

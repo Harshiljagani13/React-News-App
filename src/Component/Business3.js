@@ -67,11 +67,6 @@ function Business3() {
                             3
                         </NavLink>
                     </li>
-                    <li className="page-item">
-                        <NavLink className="page-link" to="/business3">
-                            Next
-                        </NavLink>
-                    </li>
                 </ul>
             </nav>
         </div>

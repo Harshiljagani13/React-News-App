@@ -8,7 +8,6 @@ import World from './Component/World';
 import Ahmedabad from './Component/Ahmedabad';
 import Gujarat from './Component/Gujarat';
 import Business from './Component/Business';
-import Other from './Component/Other';
 import Ahmedabad2 from './Component/Ahmedabad2';
 import Ahmedabad3 from './Component/Ahmedabad3';
 import World2 from './Component/World2';
@@ -24,6 +23,7 @@ import Corona3 from './Component/Corona3';
 import Food from './Component/Food';
 import Beauty from './Component/Beauty';
 import Entertainment from './Component/Entertainment';
+import Data from './Component/Data';
 
 function App() {
     return (
@@ -50,11 +50,10 @@ function App() {
                     <Route path="/business" element={<Business />} />
                     <Route path="/business2" element={<Business2 />} />
                     <Route path="/business3" element={<Business3 />} />
-                    <Route path="/other" element={<Other />} />
                     <Route path="/food" element={<Food />} />
                     <Route path="/beauty" element={<Beauty />} />
                     <Route path="/entertainment" element={<Entertainment />} />
-
+                    <Route path="/data/:id" element={<Data />} />
                 </Routes>
             </BrowserRouter>
         </div>

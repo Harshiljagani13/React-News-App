@@ -9,8 +9,8 @@ function Gujarat3() {
     });
 
     const [news1, setNews1] = useState([]);
-    const getAllNews = async () => {
-        await axios.get('https://timenews.co.in/wp-json/wp/v2/posts?categories=11&page=3').then((res) => {
+    const getAllNews = async (data) => {
+        await axios.get('https://timenews.co.in/wp-json/wp/v2/posts?categories=11&page=3', data).then((res) => {
             setNews1(res.data);
         });
     };

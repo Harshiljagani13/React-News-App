@@ -49,26 +49,21 @@ function Business() {
                 <ul className="pagination justify-content-center" onSubmit={handleSubmit}>
                     <li className="page-item">
                         <NavLink className="page-link" to="/business">
-                            Previous
-                        </NavLink>
-                    </li>
-                    <li className="page-item">
-                        <NavLink className="page-link" to="/business">
                             1
                         </NavLink>
                     </li>
                     <li className="page-item">
-                        <NavLink className="page-link" to="/business">
+                        <NavLink className="page-link" to="/business2">
                             2
                         </NavLink>
                     </li>
                     <li className="page-item">
-                        <NavLink className="page-link" to="/business">
+                        <NavLink className="page-link" to="/business3">
                             3
                         </NavLink>
                     </li>
                     <li className="page-item">
-                        <NavLink className="page-link" to="/business">
+                        <NavLink className="page-link" to="/business2">
                             Next
                         </NavLink>
                     </li>
