@@ -65,7 +65,6 @@ function Navbar() {
                             <li className="nav-item dropdown">
                                 <NavLink
                                     className="navbarlink px-4 dropdown-toggle"
-                                    href="#"
                                     role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
@@ -74,17 +73,17 @@ function Navbar() {
                                 </NavLink>
                                 <ul className="dropdown-menu ">
                                     <li>
-                                        <NavLink className="dropdown-item navbarlink bg-white text-dark" to="/food">
+                                        <NavLink className="dropdown-item navbar-link " to="/food">
                                             FOOD
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink className="dropdown-item navbarlink bg-white text-dark" to="/entertainment">
+                                        <NavLink className="dropdown-item navbar-link" to="/entertainment">
                                             ENTERTAINMENT
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink className="dropdown-item navbarlink bg-white text-dark" to="/beauty">
+                                        <NavLink className="dropdown-item navbar-link " to="/beauty">
                                             BEAUTY
                                         </NavLink>
                                     </li>
