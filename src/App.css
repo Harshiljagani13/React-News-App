@@ -6,7 +6,9 @@
     height: 40vmin;
     pointer-events: none;
 }
-
+body {
+    background-color: lightgoldenrodyellow;
+}
 .navbarlink {
     color: white;
     text-decoration: none;
@@ -67,6 +69,11 @@
     height: auto;
     width: auto;
 }
+.logo1 {
+    background-color: white;
+    padding: 1%;
+    align-items: center;
+}
 
 .image1 {
     width: 20vw;
@@ -94,10 +101,6 @@
 div img {
     width: 24rem;
     height: 20rem;
-}
-.data1 {
-    height: 1rem;
-    width: 10rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

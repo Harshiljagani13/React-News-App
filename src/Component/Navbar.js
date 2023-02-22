@@ -4,11 +4,9 @@ import '../App.css';
 function Navbar() {
     return (
         <>
-            <img
-                src="https://timenews.co.in/wp-content/uploads/2019/07/logo-1.png"
-                className=" mx-auto d-block my-5 logo"
-                alt="Time News logo"
-            />
+            <div className="logo1">
+                <img src="https://timenews.co.in/wp-content/uploads/2019/07/logo-1.png" className="logo" alt="Time News" />
+            </div>
             <div className="nav-bar">
                 <nav className="navbar navbar-expand-lg navbar-link bg-dark navbar-dark  ">
                     <div className="container ">
